@@ -1,22 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My Sample Website">
-    <title>My Webpage</title>
-</head>
-<body>
-    <h1>My Header</h1>
-    <p>My Paragraph is here.</p>
-    <ol>
-        <li>first</li>
-        <li>second</li>
-        <li>third</li>
-    </ol>
-    <a href="http://google.com/">Link to Google!</a>
-    <br>
-    <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/480px-Gawr_Gura_-_Portrait_01.png" alt="gura image">
-</body>
+    <title>Gura - Practice Fanpage</title>
+    <link rel="icon" href="images/gura_icon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav>
+      <ul class="nav-list flex flex-end flex-vertical-center">
+        <li class="nav-item flex flex-vertical-center">
+          <div class="logo">
+            <a href="#" class="font-default font-bolder flex flex-vertical-center">
+              <img src="images/gura_icon.png" alt="">
+            </a>
+          </div>
+          <div class="home" id="home">
+            <a href="#" class="font-default font-bolder flex flex-vertical-center">
+              Apex Predator
+            </a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="#" class="font-default font-bold">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="font-default font-bold">Contact</a></li>
+        <li class="nav-item"><a href="#" class="font-default font-bold">About</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="intro-text">
+        <h1>
+          <span class="hear"> Welcome to Atlantis! </span> <br />
+        </h1>
+        <p>
+          A fanpage for the most subscribe Vtuber~ <br />
+          No need to fear we are all the same here.
+        </p>
+        <a class="btn blue" href="#">Sign Up</a>
+      </div>
+      <div class="i-frame">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AI24NCKB7-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="content flex">
+        <div class="content-header">
+            <h1>Types of Gura</h1>
+        </div>
+        <div class="break"></div>
+        <div class="content-1">
+            <h2>Blue Shark</h2>
+            <img src="https://static.wikia.nocookie.net/virtualyoutuber/images/6/66/Gura_by_Amashiro_Natsuki.jpg/revision/latest?cb=20220428132016" alt="Normal Gura">
+        </div>
+        <div class="content-2">
+            <h2>Gura Alter</h2>
+            <img src="https://i.scdn.co/image/ab6761610000e5eb298d397ee63a9b6a01217235" alt="Red Gura">
+        </div>
+        <div class="content-3">
+            <h2>Smol Gooba</h2>
+            <img src="https://static.wikia.nocookie.net/virtualyoutuber/images/3/31/Gawr_Gura_Mini_Model_%28by_Walfie%29.png/revision/latest?cb=20210811060627" alt="">
+        </div>
+    </section>
+
+    <section class="quote flex flex-vertical-center">
+        
+        <div class="quote-1">
+            <p><em>“I don't know, maybe it's not great progress compared to other people, but I'm happy with my progress. And you know what? Quite frankly, that's all that matters. If you spend too much time worrying about, you know, other people's progress and how it matches up to yours then... I don't know, you might forget what really matters, and that's your progress, you know?”</em></p>            
+        </div>
+        <div class="break"></div>
+        <div class="quote-end">
+            <h1>-Gawr Gura</h1>
+        </div>
+    </section>
+
+    <section class="signup">
+        <div class="signup-box flex">
+            <div class="signup-items">
+                <h2>Be A Shrimp Now!</h2>
+                <p>Join the MemberShrimp now! No need to be afraid. No one will judge.</p>
+            </div>
+            <div>
+                <a class="btn blue" href="#">Sign Up</a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <a href="https://github.com/Nyambers">Webpage By: Nyambers</a>
+    </footer>
+
+  </body>
+
 </html>
